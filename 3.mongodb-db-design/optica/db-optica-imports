@@ -1,0 +1,5 @@
+mongoimport --db optica --collection products --file ./documents/products.json
+mongoimport --db optica --collection providers --file ./documents/providers.json
+mongoimport --db optica --collection customers --file ./documents/customers.json
+mongoimport --db optica --collection employees --file ./documents/employees.json
+mongoimport --db optica --collection orders --file ./documents/orders.json

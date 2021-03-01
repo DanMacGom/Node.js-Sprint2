@@ -1,0 +1,33 @@
+{
+  "brand": "Oakley",
+  "left_lens_prescription": -5.23,
+  "right_lens_prescription": -1.23,
+  "frame_type": "Metallic",
+  "frame_color": "Brown",
+  "left_lens_color": "Blue",
+  "right_lens_color": "Pink",
+  "price": 45.30,
+  "provider": "Gafas Pepe"
+}
+{
+  "brand": "Oakley",
+  "left_lens_prescription": -1.0,
+  "right_lens_prescription": -0.25,
+  "frame_type": "Floating",
+  "frame_color": "Gray",
+  "left_lens_color": "Light blue",
+  "right_lens_color": "Green",
+  "price": 105.23,
+  "provider": "Gafas Pepe"
+}
+{
+  "brand": "Dolce & Gabbana",
+  "left_lens_prescription": -0.3,
+  "right_lens_prescription": -0.9,
+  "frame_type": "Acetate",
+  "frame_color": "Yellow",
+  "left_lens_color": "Red",
+  "right_lens_color": "Orange",
+  "price": 89.23,
+  "provider": "Provider John"
+}

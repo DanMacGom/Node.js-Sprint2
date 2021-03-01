@@ -1,0 +1,16 @@
+{
+  "name": "Rosario",
+  "postal_code": "09823",
+  "telephone_number": "908323345",
+  "email": "rosana@gmail.com",
+  "registration_date": "2020-03-12 15:00:00",
+  "recommended_by": null
+}
+{
+  "name": "Josep",
+  "postal_code": "09823",
+  "telephone_number": "998923456",
+  "email": "josep@gmail.com",
+  "registration_date": "2020-03-12 15:05:00",
+  "recommended_by": {"$oid": "603bf7eb55a556ea293375cb"}
+}

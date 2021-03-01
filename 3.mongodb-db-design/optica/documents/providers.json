@@ -1,0 +1,46 @@
+{
+	"name": "Provider John",
+	"addresses": [
+    {
+			"street_type": "Calle",
+			"street_name": "Clarís",
+			"street_number": "10",
+			"floor": "6",
+			"door": "A",
+			"city": "Sabadell",
+			"postal_code": "84421",
+			"country": "Spain"
+		},
+		{
+			"street_type": "Calle",
+			"street_name": "Aragón",
+			"street_number": "24",
+			"floor": "12",
+			"door": "C",
+			"city": "Guadalajara",
+			"postal_code": "90892",
+			"country": "Spain"
+		}
+	],
+	"telephone_number": "298432123",
+	"fax": "908999123",
+	"NIF": "83456315T"
+}
+{
+  "name": "Gafas Pepe",
+  "addresses": [
+    {
+      "street_type": "Ronda",
+      "street_name": "Poniente",
+      "street_number": "12",
+      "floor": "5",
+      "door": "T",
+      "city": "Sabadell",
+      "postal_code": "55555",
+      "country": "Spain"
+    }
+  ],
+  "telephone_number": "598788456",
+  "fax": "787747451",
+  "NIF": "78966987G"
+}

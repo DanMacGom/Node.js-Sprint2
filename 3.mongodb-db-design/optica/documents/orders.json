@@ -1,0 +1,49 @@
+{
+  "dt_order_placed": "2016-03-12 12:34:32",
+  "customer_id": {"$oid": "603cb73a5ed7c2e3c626f82a"},
+  "sold_by": {"$oid": "603cb73a5ed7c2e3c626f82a"},
+  "total_price": 100.0,
+  "products": [
+    {
+      "quantity": 4,
+      "product_id": {"$oid": "603cb4612d250400bc248e04"},
+      "price_per_unit": 25.0
+    }
+  ]
+}
+{
+  "dt_order_placed": "2020-10-11 03:22:36",
+  "customer_id": {"$oid": "603cb73a8861ae4baaa2dff9"},
+  "sold_by": {"$oid": "603cb73a5ed7c2e3c626f82a"},
+  "total_price": 315.50,
+  "products": [
+    {
+      "quantity": 1,
+      "product_id": {"$oid": "603cb4612d250400bc248e05"},
+      "price_per_unit": 15.50
+    },
+    {
+      "quantity": 10,
+      "product_id": {"$oid": "603cb73a5ed7c2e3c626f82a"},
+      "price_per_unit": 30.0
+    }
+  ]
+}
+{
+  "dt_order_placed": "2021-01-01 20:53:23",
+  "provider_id": {"$oid": "603cb73a5ed7c2e3c626f82a"},
+  "ordered_by": {"$oid": "603cb73a5ed7c2e3c626f82a"},
+  "total_price": 315.50,
+  "products": [
+    {
+      "quantity": 1,
+      "product_id": {"$oid": "603cb4612d250400bc248e05"},
+      "price_per_unit": 15.50
+    },
+    {
+      "quantity": 10,
+      "product_id": {"$oid": "603cb73a5ed7c2e3c626f82a"},
+      "price_per_unit": 30.0
+    }
+  ]
+}
