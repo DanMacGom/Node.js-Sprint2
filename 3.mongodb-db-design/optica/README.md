@@ -2,5 +2,5 @@
 `node createOpticaCollection.js`<br>
 
 ## Execute mongoimport:
-`chmod +x db-imports`<br>
+`chmod +x db-optica-imports`<br>
 `./db-imports`<br>
