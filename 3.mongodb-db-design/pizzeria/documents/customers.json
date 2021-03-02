@@ -1,0 +1,32 @@
+{
+  "name": "Rosario",
+  "surname1": "Pérez",
+  "surname2": "Gómez",
+  "address": {
+    "street_type": "Calle",
+    "street_name": "del Pino",
+    "steet_number": "15",
+    "floor": 5,
+    "door": "A"
+  },
+  "postal_code": "09823",
+  "locality": "Sabadell",
+  "province": "Barcelona",
+  "telephone_number": "908323345"
+}
+{
+  "name": "Josep",
+  "surname1": "López",
+  "surname2": "González",
+  "address": {
+    "street_type": "Calle",
+    "street_name": "del Pino",
+    "steet_number": "15",
+    "floor": 5,
+    "door": "A"
+  },
+  "postal_code": "09823",
+  "locality": "Sabadell",
+  "province": "Barcelona",
+  "telephone_number": "908323346"
+}

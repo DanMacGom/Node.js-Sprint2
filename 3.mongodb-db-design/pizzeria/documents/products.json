@@ -1,0 +1,22 @@
+{
+  "type": "hamburger",
+  "name": "Delicious Hamburger",
+  "description": "Delicious",
+  "image": "url1.com",
+  "price": 15.50
+}
+{
+  "type": "pizza",
+  "name": "Pizza Margerita",
+  "description": "Margerita pizza with ingredients",
+  "image": "url2.com",
+  "price": 10.00,
+  "category": "spring"
+}
+{
+  "type": "drink",
+  "name": "Coca-cola",
+  "description": "33 cl.",
+  "image": "url3.com",
+  "price": 2.00
+}

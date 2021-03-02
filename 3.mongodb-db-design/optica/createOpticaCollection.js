@@ -8,6 +8,27 @@ MongoClient.connect(url, function(err, client) {
 
   const db = client.db("optica");
 
+  // db.listCollections().toArray(function(err, items) {
+  //   if (err) {
+  //     throw err;
+  //   }
+  //
+  //   console.log(items.length);
+  //   if (items.length !== 0) {
+  //     items.forEach(
+  //       element => db.collection(element.name).drop(function(err, delOK) {
+  //         if (err) {
+  //           throw err;
+  //         }
+  //
+  //         if (delOK) {
+  //           console.log(`Collection ${element.name} deleted.`)
+  //         }
+  //       })
+  //     )
+  //   }
+  // });
+
   console.log(`Connected to ${url}`);
 
   db.createCollection("products", {
@@ -194,7 +215,7 @@ MongoClient.connect(url, function(err, client) {
         }
       }
     }
-  })
+  });
 
   db.createCollection("orders", {
     validator: {
@@ -253,6 +274,36 @@ MongoClient.connect(url, function(err, client) {
         }
       }
     }
-  })
+  });
+
+  // // Emulate application behaviour. Insert a customer, the next one gets recommended
+  // // by the first one.
+  // db.collection("customers").insertOne({
+  //   name: "Rosario",
+  //   postal_code: "09823",
+  //   telephone_number: "908323345",
+  //   email: "rosana@gmail.com",
+  //   registration_date: new Date("2020-03-12T15:00:00Z"),
+  //   recommended_by: null
+  // });
+  //
+  // db.collection("customers").insertOne({
+  //   name: "Josep",
+  //   postal_code: "09823",
+  //   telephone_number: "998923456",
+  //   email: "josep@gmail.com",
+  //   registration_date: new Date("2020-03-12T15:05:00Z"),
+  //   recommended_by: null
+  // });
+
+  // db.collection("customers").find(
+  //   { telephone_number: "908323345" }, { _id: 1 }
+  // ).toArray(function(err, result) {
+  //   if (err) {
+  //     throw err;
+  //   }
+  //
+  //   console.log(result);
+  // });
 
 });

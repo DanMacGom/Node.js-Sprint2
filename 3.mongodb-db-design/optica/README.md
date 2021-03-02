@@ -1,5 +1,4 @@
 ## Create collection:
-`cd optica/`<br>
 `node createOpticaCollection.js`<br>
 
 ## Execute mongoimport:

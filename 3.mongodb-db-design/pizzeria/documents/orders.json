@@ -1,0 +1,42 @@
+{
+  "dt_order_placed": "2016-03-12 12:34:32",
+  "customer_id": {"$oid": "603cb73a5ed7c2e3c626f82a"},
+  "home_delivery": true,
+  "sold_by": {"$oid": "603cb73a5ed7c2e3c626f82a"},
+  "total_price": 65.0,
+  "products": [
+    {
+      "quantity": 4,
+      "product_id": {"$oid": "603cb4612d250400bc248e04"},
+      "price_per_unit": 10.0
+    },
+    {
+      "quantity": 5,
+      "product_id": {"$oid": "603cb4612d250400bc248e05"},
+      "price_per_unit": 5
+    }
+  ],
+  "delivery_employee": {"$oid": "132cb4612d250400bc248e05"},
+  "dt_delivery": "2018-06-03 15:00:00",
+  "shop_id": {"$oid": "452cb4612d250400bc248e05"}
+}
+{
+  "dt_order_placed": "2016-03-12 12:34:32",
+  "customer_id": {"$oid": "603cb73a5ed7c2e3c626f82a"},
+  "home_delivery": false,
+  "sold_by": {"$oid": "603cb73a5ed7c2e3c626f82a"},
+  "total_price": 65.0,
+  "products": [
+    {
+      "quantity": 4,
+      "product_id": {"$oid": "603cb4612d250400bc248e04"},
+      "price_per_unit": 10.0
+    },
+    {
+      "quantity": 5,
+      "product_id": {"$oid": "603cb4612d250400bc248e05"},
+      "price_per_unit": 5
+    }
+  ],
+  "shop_id": {"$oid": "145cb4612d250400bc248e05"}
+}

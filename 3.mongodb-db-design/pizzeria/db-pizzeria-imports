@@ -1,0 +1,5 @@
+mongoimport --db pizzeria --collection customers --file ./documents/customers.json
+mongoimport --db pizzeria --collection orders --file ./documents/orders.json
+mongoimport --db pizzeria --collection products --file ./documents/products.json
+mongoimport --db pizzeria --collection shops --file ./documents/shops.json
+mongoimport --db pizzeria --collection employees --file ./documents/employees.json

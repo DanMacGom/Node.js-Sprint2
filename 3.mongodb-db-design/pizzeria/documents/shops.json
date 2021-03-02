@@ -1,0 +1,19 @@
+{
+	"address": {
+			"street_type": "Calle",
+			"street_name": "Clarís",
+			"street_number": "10",
+			"floor": "6",
+			"door": "A",
+			"locality": "Sabadell",
+			"postal_code": "84421",
+			"province": "Barcelona"
+	},
+	"telephone_number": "298432123",
+	"fax": "908999123",
+	"nif": "83456315T",
+	"employees": [
+		{"$oid": "111cb4612d250400bc248e04"},
+		{"$oid": "222cb73a5ed7c2e3c626f82a"}
+	]
+}
