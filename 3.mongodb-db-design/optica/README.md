@@ -3,4 +3,4 @@
 
 ## Execute mongoimport:
 `chmod +x db-optica-imports`<br>
-`./db-imports`<br>
+`./db-optica-imports`<br>
